@@ -1,9 +1,55 @@
 {
     "version": 2,
-"settings": {
-    "layout": {
-        "contentSize": "640px",
-        "wideSize": "1280px"
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"slug": "system-fonts",
+					"name": "System Fonts"
+				},
+				{
+					"fontFamily": "Geneva, Tahoma, Verdana, sans-serif",
+					"slug": "geneva-verdana"
+				}
+			]
+        },
+        "layout": {
+            "contentSize": "840px",
+            "wideSize": "1100px"
+        },
+        "color": {
+            "palette": [
+                {
+                     "slug": "primary",
+                     "color": "#1FCCCC",
+                     "name": "Primary"
+                },
+                {
+                     "slug": "secondary",
+                     "color": "#008ee5",
+                     "name": "Secondary"
+                },
+                {
+                    "slug": "tertiary",
+                    "color": "#b20ed7",
+                    "name": "Tertiary"
+               }
+            ],
+            "gradients": [
+                {
+                "slug": "primary-to-secondary",
+                "gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--secondary))",
+                "name": "Primary to Secondary"
+                }
+            ],
+                    "duotone": [
+                     {
+                    "colors": [ "#1d1f35", "#6cace4" ],
+                    "slug": "dark-blue-and-light-blue",
+                    "name": "Dark blue and light blue"
+                }
+            ]
+                 }
+          }
     }
-}
-}
