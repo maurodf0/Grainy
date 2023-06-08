@@ -1,106 +1,149 @@
 {
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"settings": {
-        "spacing": {
-			"units": [ "px","em","rem"],
-            "margin": true,
-			"padding": true,
-            "blockGap": true
+		"appearanceTools": true,
+		"color": {
+			"custom": true,
+			"customGradient": true,
+			"link": true,
+			"palette": [
+				{
+					"name": "Primary",
+					"slug": "primary",
+					"color": "#24ffff"
+				},
+				{
+					"name": "Secondary",
+					"slug": "secondary",
+					"color": "#24abff"
+				},
+				{
+					"name": "Tertiary",
+					"slug": "tertiary",
+					"color": "#d51aff"
+				}
+			],
+			"duotone": [
+				{
+					"name": "Duetone #1",
+					"slug": "duetone-1",
+					"colors": [
+						"#24ffff",
+						"#24abff"
+					]
+				},
+				{
+					"name": "Duetone #2",
+					"slug": "duetone-2",
+					"colors": [
+						"#24ffff",
+						"#d51aff"
+					]
+				},
+				{
+					"name": "Duetone #3",
+					"slug": "duetone-3",
+					"colors": [
+						"#24abff",
+						"#d51aff"
+					]
+				}
+			],
+			"gradients": [
+				{
+					"name": "Primary Gradient",
+					"slug": "primary-gradient",
+					"gradient": "linear-gradient(135deg, #24ffff 0%, #24abff 100%)"
+				},
+				{
+					"name": "Secondary Gradient",
+					"slug": "secondary-gradient",
+					"gradient": "linear-gradient(135deg, #24ffff 0%, #d51aff 100%)"
+				}
+			]
 		},
 		"typography": {
+			"customFontSize": true,
+			"customLineHeight": true,
+			"dropCaps": true,
+			"fontSizes": [
+				{
+					"name": "Small",
+					"slug": "small",
+					"size": "13"
+				},
+				{
+					"name": "Normal",
+					"slug": "normal",
+					"size": "16"
+				},
+				{
+					"name": "Big",
+					"slug": "big",
+					"size": "22"
+				}
+			],
 			"fontFamilies": [
 				{
-					"fontFamily": "Noto Sans",
-					"slug": "noto-sans",
+					"slug": "noto-sans"
+				},
+				{
+					"fontFamily": "Rubik",
+					"slug": "rubik",
 					"fontFace": [
 						{
-							"fontFamily": "Noto Sans",
+							"fontFamily": "Rubik",
 							"fontStyle": "normal",
 							"fontWeight": "300",
 							"src": [
-								"file:./assets/fonts/noto-sans_normal_300.ttf"
+								"file:./assets/fonts/rubik_normal_300.ttf"
 							]
 						},
 						{
-							"fontFamily": "Noto Sans",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/noto-sans_italic_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "Noto Sans",
+							"fontFamily": "Rubik",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/noto-sans_normal_400.ttf"
+								"file:./assets/fonts/rubik_normal_400.ttf"
 							]
 						},
 						{
-							"fontFamily": "Noto Sans",
+							"fontFamily": "Rubik",
 							"fontStyle": "normal",
-							"fontWeight": "600",
+							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/noto-sans_normal_600.ttf"
+								"file:./assets/fonts/rubik_normal_700.ttf"
 							]
 						},
 						{
-							"fontFamily": "Noto Sans",
+							"fontFamily": "Rubik",
 							"fontStyle": "italic",
-							"fontWeight": "800",
+							"fontWeight": "300",
 							"src": [
-								"file:./assets/fonts/noto-sans_italic_800.ttf"
+								"file:./assets/fonts/rubik_italic_300.ttf"
 							]
 						}
 					]
 				}
 			]
 		},
+		"spacing": [
+			{
+				"padding": true,
+				"margin": true,
+				"units": [
+					"px",
+					"em",
+					"rem",
+					"vh",
+					"vw"
+				]
+			}
+		],
 		"layout": {
 			"contentSize": "640px",
-			"wideSize": "1100px"
-		},
-		"color": {
-			"palette": [
-				{
-					"slug": "primary",
-					"color": "#1FCCCC",
-					"name": "Primary"
-				},
-				{
-					"slug": "secondary",
-					"color": "#008ee5",
-					"name": "Secondary"
-				},
-				{
-					"slug": "tertiary",
-					"color": "#b20ed7",
-					"name": "Tertiary"
-				}
-			],
-			"gradients": [
-				{
-					"slug": "primary-to-secondary",
-					"gradient": "linear-gradient(160deg, var(--wp--preset--color--primary), var(--wp--preset--color--secondary))",
-					"name": "Primary to Secondary"
-				}
-			],
-			"duotone": [
-				{
-					"colors": [
-						"#1d1f35",
-						"#6cace4"
-					],
-					"slug": "dark-blue-and-light-blue",
-					"name": "Dark blue and light blue"
-				}
-			]
-		},
-        "style": {
-            "spacing": {
-                "blockGap": "1.5rem"
-            }
-        }
+			"wideSize": "880px"
+		}
 	}
 }
