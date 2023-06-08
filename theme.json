@@ -2,6 +2,15 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"settings": {
+		"blocks": {
+		},
+		
+		"border": {
+            "radius": true,
+            "color": true,
+            "style": true,
+            "width": true
+        },
 		"appearanceTools": true,
 		"color": {
 			"custom": true,
