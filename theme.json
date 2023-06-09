@@ -4,7 +4,6 @@
 	"settings": {
 		"blocks": {
 		},
-		
 		"border": {
             "radius": true,
             "color": true,
@@ -13,9 +12,6 @@
         },
 		"appearanceTools": true,
 		"color": {
-			"custom": true,
-			"customGradient": true,
-			"link": true,
 			"palette": [
 				{
 					"name": "Primary",
@@ -154,5 +150,8 @@
 			"contentSize": "640px",
 			"wideSize": "880px"
 		}
+	},
+	"style": {
+			"background": "#1d1d1d"
 	}
 }
