@@ -12,6 +12,9 @@
         },
 		"appearanceTools": true,
 		"color": {
+			"custom": true,
+			"customGradient": true,
+			"link": true,
 			"palette": [
 				{
 					"name": "Primary",
