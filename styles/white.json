@@ -27,5 +27,18 @@
 				}
 			]
 		}
-    }
+    },
+	"styles": {
+		"elements": {
+			"link": {
+				"color": {
+					"text": "#1d1d1d"
+				}
+			}
+		},
+		"color": {
+			"background": "#FFFFFF",
+			"text": "#1d1d1d"
+		}
+	}
 }
