@@ -50,7 +50,7 @@
 		},
 		"color": {
 			"background": "var(--wp--preset--color--background)",
-			"text": "#1d1d1d"
+			"text": "var(--wp--preset--color--text)"
 		}
 	},
 	"blocks": {
@@ -84,6 +84,10 @@
 					"bottom": "var(--wp--preset--spacing--40)",
 					"left": "var(--wp--preset--spacing--40)"
 				}
+			},
+			"color": {
+				"background": "var(--wp--preset--color--background)",
+				"text": "var(--wp--preset--color--text)"
 			}
 		}
 	},
