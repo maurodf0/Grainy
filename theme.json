@@ -250,7 +250,7 @@
 				}
 			}
 		},
-		"css": ".main-h1 {\nposition:relative;\npadding:140px;\n}\n\n.main-h1:before {\n    position: absolute;\n    content: \"\";\n    z-index: -1;\n    top: 0%;\n    bottom: 10%;\n    width: 150%;\n    left: -25%;\n    background: url(/assets/noise.webp) repeat,linear-gradient(83.21deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--tertiary) 100%);\n    background-blend-mode: overlay;\n    -webkit-mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n    mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n}",
+		"css": ".main-h1 {\nposition:relative;\npadding:140px;\n}\n\n.main-h1:before {\n    position: absolute;\n    content: \"\";\n    z-index: -1;\n    top: 0%;\n    bottom: 10%;\n    width: 150%;\n    left: -25%;\n    background: url(/assets/noise.webp) repeat,linear-gradient(83.21deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--tertiary) 100%);\n    background-blend-mode: overlay;\n    -webkit-mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n    mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n}\n",
 		"spacing": {
 			"padding": {
 				"top": "0px",
