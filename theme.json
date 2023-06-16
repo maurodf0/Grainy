@@ -259,5 +259,40 @@
 				"left": "0px"
 			}
 		}
-	}
+	},
+	"templateParts": [
+		{
+			"name": "header",
+			"title": "Header",
+			"area": "header"
+		},
+		{
+			"name": "header-centered-nav-cta",
+			"title": "Header With Centered Nav and CTA",
+			"area": "header"
+		},
+		{
+			"name": "loop-with-cover",
+			"title": "Loop With Cover Image",
+			"area": "uncategorized"
+		},
+		{
+			"name": "footer",
+			"title": "Footer",
+			"area": "footer"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "blank-canvas",
+			"title": "Blank Canvas",
+			"postTypes": [ "page" ]
+		},
+		{
+			"name": "page-no-title",
+			"title": "No Title",
+			"postTypes": [ "page" ]
+		}
+	]
+	
 }

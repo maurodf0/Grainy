@@ -13,3 +13,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: btc
 Tags: 
 */
+
+/* Add some css for hundle thigs not ready in Gutengerg */
+
+.page-numbers {
+    padding: 0 5px;
+}
