@@ -1,14 +1,14 @@
 <?php 
 
 
-function btc_style() {
-	wp_enqueue_style( 'btc-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ));
+function grainy_style() {
+	wp_enqueue_style( 'grainy-style', get_stylesheet_uri(), array(), wp_get_theme()->get( 'Version' ));
 }
-add_action( 'wp_enqueue_scripts', 'btc_style' );
+add_action( 'wp_enqueue_scripts', 'grainy_style' );
 
-if ( ! function_exists( 'btc_support' ) ) :
+if ( ! function_exists( 'grainy_support' ) ) :
 
-	function btc_support() {
+	function grainy_support() {
 
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
@@ -19,7 +19,7 @@ if ( ! function_exists( 'btc_support' ) ) :
 	}
 
 endif;
-add_action( 'after_setup_theme', 'btc_support' );
+add_action( 'after_setup_theme', 'grainy_support' );
 
 
 

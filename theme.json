@@ -1,13 +1,36 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		},
+		{
+			"area":"header",
+			"name":"header-centered-nav-cta",
+			"title":"Header With Nav and Main CTA"
+		},
+		{
+			"area":"uncategorized",
+			"name":"loop-with-cover",
+			"title":"Loop with cover"
+		}
+	],
 	"settings": {
 		"blocks": [],
 		"border": {
 			"radius": true,
 			"color": true,
 			"style": true,
-			"width": true
+			"width": true,
+			"customRadius": true
 		},
 		"appearanceTools": true,
 		"color": {
@@ -200,7 +223,8 @@
 				},
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--secondary)"
+						"text": "var(--wp--preset--color--secondary)",
+						"textDecoration":"underline"
 					}
 				}
 			},
@@ -217,7 +241,7 @@
 		},
 		"typography": {
 			"fontSize": "var(--wp--preset--font-size--normal)",
-			"fontFamily": "var(--wp--preset--font-family--rubik)",
+			"fontFamily": "var(--wp--preset--font-family--bitter)",
 			"lineHeight": "1.6",
 			"fontStyle": "normal",
 			"fontWeight": "400"
@@ -250,7 +274,7 @@
 				}
 			}
 		},
-		"css": ".main-h1 {\nposition:relative;\npadding:140px;\n}\n\n.main-h1:before {\n    position: absolute;\n    content: \"\";\n    z-index: -1;\n    top: 0%;\n    bottom: 10%;\n    width: 150%;\n    left: -25%;\n    background: url(/assets/noise.webp) repeat,linear-gradient(83.21deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--tertiary) 100%);\n    background-blend-mode: overlay;\n    -webkit-mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n    mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n}\n",
+		"css": ".main-h1 {\nposition:relative;\npadding:140px;\n}\n\n.main-h1:before {\n    position: absolute;\n    content: \"\";\n    z-index: -1;\n    top: 0%;\n    bottom: 10%;\n    width: 150%;\n    left: -25%;\n    background: url(/assets/noise.webp) repeat,linear-gradient(83.21deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--tertiary) 100%);\n    background-blend-mode: overlay;\n    -webkit-mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n    mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n}\n body {background: url(https://grainy-gradients.vercel.app/noise.svg) repeat, var(--wp--preset--color--background);background-blend-mode: overlay;}",
 		"spacing": {
 			"padding": {
 				"top": "0px",
@@ -260,28 +284,6 @@
 			}
 		}
 	},
-	"templateParts": [
-		{
-			"name": "header",
-			"title": "Header",
-			"area": "header"
-		},
-		{
-			"name": "header-centered-nav-cta",
-			"title": "Header With Centered Nav and CTA",
-			"area": "header"
-		},
-		{
-			"name": "loop-with-cover",
-			"title": "Loop With Cover Image",
-			"area": "uncategorized"
-		},
-		{
-			"name": "footer",
-			"title": "Footer",
-			"area": "footer"
-		}
-	],
 	"customTemplates": [
 		{
 			"name": "blank-canvas",

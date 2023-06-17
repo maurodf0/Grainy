@@ -45,6 +45,9 @@
 			"link": {
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
+				},
+				":hover": {
+					"textDecoration":"underline"
 				}
 			}
 		},

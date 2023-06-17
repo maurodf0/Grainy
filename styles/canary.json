@@ -6,19 +6,19 @@
         "color": {
 			"palette": [
 				{
-					"slug": "foreground",
-					"color": "#1C1D1D",
-					"name": "Foreground"
-				},
-				{
 					"slug": "background",
 					"color": "#FFD041",
 					"name": "Background"
 				},
 				{
 					"slug": "primary",
-					"color": "#1C1D1D",
+					"color": "#587B7F",
 					"name": "Primary"
+				},
+				{
+					"slug": "text",
+					"color": "#1C1D1D",
+					"name": "Text"
 				},
 				{
 					"slug": "secondary",
@@ -44,13 +44,13 @@
 		"elements": {
 			"link": {
 				"color": {
-					"text": "#1d1d1d"
+					"text": "var(--wp--preset--color--text)"
 				}
 			}
 		},
 		"color": {
-			"background": "#FFD041",
-			"text": "#1d1d1d"
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--text)"
 		}
 	},
 	"blocks": {

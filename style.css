@@ -1,16 +1,16 @@
 /*
-Theme Name: BlockThemeCourse
+Theme Name: Grainy
 Theme URI: https://github.com/maurodf0/BlockThemeCourse
 Author: Mauro De Falco
 Author URI: https://maurodefalco.it/
 Description: First attempt to block theme development
-Requires at least: 6.0
+Requires at least: 6.2.2
 Tested up to: 6.2.2
 Requires PHP: 7.4
 Version: 0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: btc
+Text Domain: grainy
 Tags: 
 */
 
@@ -19,3 +19,25 @@ Tags:
 .page-numbers {
     padding: 0 5px;
 }
+
+
+mark {
+    background-color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--text);
+    padding:0 5px;
+}
+    
+
+ .main-h1:before {
+        position: absolute;
+        content: "";
+        z-index: -1;
+        top: 0%;
+        bottom: 10%;
+        width: 150%;
+        left: -25%;
+    background: repeat,linear-gradient(83.21deg,var(--wp--preset--color-primary) 0%, var(--wp--preset--color--secondary) 100%);
+        background-blend-mode: overlay;
+        -webkit-mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);
+        mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);
+ }
