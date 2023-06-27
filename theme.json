@@ -116,44 +116,6 @@
 			],
 			"fontFamilies": [
 				{
-					"fontFamily": "Rubik",
-					"slug": "rubik",
-					"fontFace": [
-						{
-							"fontFamily": "Rubik",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/rubik_normal_300.ttf"
-							]
-						},
-						{
-							"fontFamily": "Rubik",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/rubik_normal_400.ttf"
-							]
-						},
-						{
-							"fontFamily": "Rubik",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/rubik_normal_700.ttf"
-							]
-						},
-						{
-							"fontFamily": "Rubik",
-							"fontStyle": "italic",
-							"fontWeight": "300",
-							"src": [
-								"file:./assets/fonts/rubik_italic_300.ttf"
-							]
-						}
-					]
-				},
-				{
 					"fontFamily": "Bitter",
 					"slug": "bitter",
 					"fontFace": [
@@ -211,7 +173,7 @@
 		"elements": {
 			"caption": {
 				"color": {
-					"text": "var(--wp--preset--color--white)"
+					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"link": {
@@ -230,7 +192,7 @@
 			},
 			"heading": {
 				"color": {
-					"text": "var(--wp--preset--color--white)"
+					"text": "var(--wp--preset--color--text)"
 				}
 			},
 			"button": {
@@ -249,18 +211,18 @@
 		"blocks": {
 			"core/heading": {
 				"color": {
-					"text": "var(--wp--preset--color--white)"
+					"text": "var(--wp--preset--color--text)"
 				}
 			},
 			"core/query-title": {
 				"color": {
-					"text": "var(--wp--preset--color--white)"
+					"text": "var(--wp--preset--color--text)"
 				}
 			},
 			"core/button": {
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--white)"
+					"text": "var(--wp--preset--color--text)"
 				}
 			},
 			"core/group": {
