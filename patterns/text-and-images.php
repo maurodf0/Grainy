@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Text and Images with button
- * Slug: btc/text-and-images
- * Categories: BlockThemeCustom
+ * Slug: grainy/text-and-images
+ * Categories: Grainy
  */
 ?>
 
