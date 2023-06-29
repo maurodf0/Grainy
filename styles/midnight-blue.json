@@ -12,12 +12,12 @@
 				},
 				{
 					"slug": "text",
-					"color": "#BAC1B8",
+					"color": "#f0f0f0",
 					"name": "Background Contrast"
 				},
 				{
 					"slug": "primary",
-					"color": "#6ED1E1",
+					"color": "#20A39E",
 					"name": "Primary"
 				},
 				{
