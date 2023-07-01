@@ -1,27 +1,21 @@
-<!-- wp:template-part {"slug":"header","theme":"Grainy","tagName":"header","className":"site-header"} /-->
+<!-- wp:template-part {"slug":"header","theme":"BlockThemeCourse","tagName":"header","className":"site-header"} /-->
 
 <!-- wp:group {"layout":{"type":"constrained"},"fontSize":"x-large"} -->
-<div class="wp-block-group has-x-large-font-size"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"100","lineHeight":"1.2"},"spacing":{"padding":{"top":"var:preset|spacing|80","right":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"className":"main-h1","fontSize":"x-large"} -->
-    <h2 class="wp-block-heading has-text-align-center main-h1 has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--40);margin-right:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);margin-left:var(--wp--preset--spacing--40);padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80);font-style:normal;font-weight:100;line-height:1.2">Hi, I'm <mark style="background-color:var(--wp--preset--color--primary)" class="has-inline-color has-text-color"><strong>Grainy</strong></mark>, a <em>powerful</em> <strong>Block Theme</strong> for <strong>Blog</strong>. You can <strong>create everything</strong><em> with me.</em></h2>
+<div class="wp-block-group has-x-large-font-size"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"100","lineHeight":"1.2"},"spacing":{"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"},"margin":{"top":"var:preset|spacing|40","right":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"textColor":"text","className":"main-h1","fontSize":"x-large"} -->
+    <h2 class="wp-block-heading has-text-align-center main-h1 has-text-color has-x-large-font-size" style="margin-top:var(--wp--preset--spacing--40);margin-right:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);margin-left:var(--wp--preset--spacing--40);padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50);font-style:normal;font-weight:100;line-height:1.2">Hi, I'm <strong><mark style="background-color:var(--wp--preset--color--primary)" class="has-inline-color">Grainy</mark></strong>, a <em>powerful</em> <strong>Block Theme</strong> for <strong>Blog</strong>. You can <strong>create everything</strong><em> with me.</em></h2>
     <!-- /wp:heading --></div>
     <!-- /wp:group -->
     
     <!-- wp:query {"queryId":29,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"layout":{"type":"constrained"}} -->
     <div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"default","columnCount":3}} -->
-    <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"stretch","orientation":"vertical"}} -->
-    <div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns -->
-    <div class="wp-block-columns"><!-- wp:column {"width":"80%"} -->
-    <div class="wp-block-column" style="flex-basis:80%"><!-- wp:post-title {"isLink":true,"linkTarget":"_blank","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"var:preset|spacing|60"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} /--></div>
-    <!-- /wp:column -->
+    <!-- wp:group {"style":{"spacing":{"blockGap":"0"},"dimensions":{"minHeight":""}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
+    <div class="wp-block-group"><!-- wp:post-title {"isLink":true,"style":{"layout":{"selfStretch":"fixed","flexSize":"450px"}}} /-->
     
-    <!-- wp:column {"width":"33.33%","style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
-    <div class="wp-block-column" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;flex-basis:33.33%"><!-- wp:post-date {"textAlign":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"textColor":"primary","fontSize":"small"} /--></div>
-    <!-- /wp:column --></div>
-    <!-- /wp:columns --></div>
+    <!-- wp:post-date {"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /--></div>
     <!-- /wp:group -->
     
-    <!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"color":{"background":"#2c2c2c"}},"className":"is-style-default"} -->
-    <hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background is-style-default" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40);background-color:#2c2c2c;color:#2c2c2c"/>
+    <!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"backgroundColor":"background","className":"is-style-default"} -->
+    <hr class="wp-block-separator has-text-color has-background-color has-alpha-channel-opacity has-background-background-color has-background is-style-default" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)"/>
     <!-- /wp:separator -->
     <!-- /wp:post-template -->
     
@@ -40,4 +34,4 @@
     <!-- /wp:query-no-results --></div>
     <!-- /wp:query -->
     
-    <!-- wp:template-part {"slug":"footer","theme":"Grainy","tagName":"footer","className":"site-footer"} /-->
+    <!-- wp:template-part {"slug":"footer","theme":"BlockThemeCourse","tagName":"footer","className":"site-footer"} /-->

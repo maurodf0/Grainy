@@ -47,7 +47,8 @@
 					"text": "var(--wp--preset--color--primary)"
 				},
 				":hover": {
-					"textDecoration":"underline"
+					"textDecoration":"underline",
+					"color": "var(--wp--preset--color--primary)"
 				}
 			}
 		},

@@ -94,24 +94,56 @@
 			]
 		},
 		"typography": {
-			"customFontSize": true,
-			"customLineHeight": true,
-			"dropCaps": true,
+			"typography": {
+				"fontStyle": "value",
+				"fontWeight": "value",
+				"lineHeight": "value",
+				"textDecoration": "value",
+				"textTransform": "value",
+				"fluid": true
+			},
 			"fontSizes": [
 				{
 					"name": "Small",
 					"slug": "small",
-					"size": "13"
+					"size": "13px"
 				},
 				{
 					"name": "Normal",
 					"slug": "normal",
-					"size": "16"
+					"size": "16px"
 				},
 				{
 					"name": "Big",
 					"slug": "big",
-					"size": "22"
+					"size": "22px"
+				},
+				{
+					"name": "Bigger",
+					"slug": "bigger",
+					"size": "28px",
+					"fluid": {
+						"min": "28px",
+						"max": "42px"
+					}
+				},
+				{
+					"name": "Title",
+					"slug": "title",
+					"size": "48px",
+					"fluid": {
+						"min": "48px",
+						"max": "62px"
+					}
+				},
+				{
+					"name": "MainTitle",
+					"slug": "main-title",
+					"size": "68px",
+					"fluid": {
+						"min": "68px",
+						"max": "100px"
+					}
 				}
 			],
 			"fontFamilies": [
@@ -185,7 +217,7 @@
 				},
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--secondary)",
+						"text": "var(--wp--preset--color--primary)",
 						"textDecoration":"underline"
 					}
 				}
@@ -236,7 +268,7 @@
 				}
 			}
 		},
-		"css": ".main-h1 {\nposition:relative;\npadding:140px;\n}\n\n.main-h1:before {\n    position: absolute;\n    content: \"\";\n    z-index: -1;\n    top: 0%;\n    bottom: 10%;\n    width: 150%;\n    left: -25%;\n    background: url(/assets/noise.webp) repeat,linear-gradient(83.21deg,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--tertiary) 100%);\n    background-blend-mode: overlay;\n    -webkit-mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n    mask-image: radial-gradient(rgba(0,0,0,.5),transparent 70%);\n}\n body {background: url(https://grainy-gradients.vercel.app/noise.svg) repeat, var(--wp--preset--color--background);background-blend-mode: overlay;}",
+		"css": "body {background: url(https://grainy-gradients.vercel.app/noise.svg) repeat, var(--wp--preset--color--background);background-blend-mode: overlay;}",
 		"spacing": {
 			"padding": {
 				"top": "0px",
