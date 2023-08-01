@@ -1,0 +1,47 @@
+/*
+Theme Name: Grainy
+Theme URI: https://github.com/maurodf0/Grainy
+Author: Mauro De Falco
+Author URI: https://maurodefalco.it/
+Description: Simple yet powerfull Full Block Theme for all blog. Came out with patterns and different styles to match your web site. Create your awesome website with Grainy without coding. Why Grainy? because this theme borns with the idea of a noise pattern into the background. that pattern "granuloso" in Italian, grainy means exactly this.
+Requires at least: 6.2.2
+Tested up to: 6.2
+Requires PHP: 7.4
+Version: 0.1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: grainy
+Tags: block-patterns, block-styles, blog, custom-background, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, grid-layout, one-column, photography, portfolio, template-editing, threaded-comments, translation-ready, wide-blocks
+*/
+
+/* Add some css for hundle thigs not ready in Gutengerg */
+
+.page-numbers {
+    padding: 0 5px;
+}
+
+
+mark {
+    background-color: var(--wp--preset--color--primary);
+    color: var(--wp--preset--color--text);
+    padding:0 5px;
+}
+
+h1,h2,h3 {
+    text-wrap: balance;
+}
+
+
+ /* Alignfull wp */
+
+.alignfull {
+    margin-left: calc( -100vw / 2 + 100% / 2 ) !important;
+	margin-right: calc( -100vw / 2 + 100% / 2 ) !important;
+    margin-top:25px;
+	max-width: 100vw;
+}
+
+.alignwide {
+    margin-left  : -80px !important;
+    margin-right : -80px !important;
+}
