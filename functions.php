@@ -21,6 +21,17 @@ if ( ! function_exists( 'grainy_support' ) ) :
 endif;
 add_action( 'after_setup_theme', 'grainy_support' );
 
+/* Register Pattern Category */
+
+function grainy_register_block_patterns() {
+
+	register_block_pattern_category( 'grainy', array(
+		'label'		=> esc_html__( 'Grainy Patterns', 'grainy' ),
+	) );
+
+}
+add_action( 'init', 'grainy_register_block_patterns' );
+
 
 
 ?>
