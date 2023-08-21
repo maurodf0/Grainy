@@ -5,9 +5,9 @@ Author: Mauro De Falco
 Author URI: https://maurodefalco.it/
 Description: Simple yet powerfull Full Block Theme for all blog. Came out with patterns and different styles to match your web site. Create your awesome website with Grainy without coding. Why Grainy? because this theme borns with the idea of a noise pattern into the background. that pattern "granuloso" in Italian, grainy means exactly this.
 Requires at least: 6.2.2
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 7.4
-Version: 0.1.4
+Version: 0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: grainy
@@ -44,4 +44,11 @@ h1,h2,h3 {
 .alignwide {
     margin-left  : -80px !important;
     margin-right : -80px !important;
+}
+
+@media (max-width:768px) {
+    .alignwide {
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+    }
 }
