@@ -30,6 +30,14 @@ Details of images used for patterns taken from https://www.rawpixel.com and http
 
 == Changelog ==
 
+= 0.2 =
+Tested with WordPress 6.3
+Added Pattern Category: Call to Action and Banner
+Added Gradient Pattern
+Added Hero Story Pattern
+Add Sidebar in Template Parts - General
+Fixed Full Width and Wide alignment on mobile
+
 = 0.1.4 =
 Fixed Pattern image not correcty loaded
 Fixed issue with some site for Align Wide and Full Align
