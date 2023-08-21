@@ -2,7 +2,7 @@
 /**
  * Title: Images with text and button.
  * Slug: grainy/images-text
- * Categories: grainy
+ * Categories: grainy, banner
  * Keywords: banner
  */
 ?>

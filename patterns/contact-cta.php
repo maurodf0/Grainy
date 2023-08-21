@@ -2,7 +2,7 @@
 /**
  * Title: Contact CTA
  * Slug: grainy/contact-cta
- * Categories: grainy
+ * Categories: grainy, call-to-action
  * Keywords: call to action, button
  */
 
