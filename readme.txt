@@ -3,7 +3,7 @@
 Contributors: maurodf
 Tags: block-patterns, block-styles, blog, custom-background, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, grid-layout, one-column, photography, portfolio, template-editing, threaded-comments, translation-ready, wide-blocks
 Requires at least: 6.2.2
-Tested up to: 6.2
+Tested up to: 6.4
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -27,6 +27,19 @@ Details of images used for patterns taken from https://www.rawpixel.com and http
 		(Creative Commons Zero (CC0) license - https://creativecommons.org/publicdomain/zero/1.0/) - https://pxhere.com/en/license
 
 == Changelog ==
+
+= 0.5 =
+Tested with WordPress 6.4
+Added new style Alice
+Added Header - Simple header with btn
+
+= 0.2 =
+Tested with WordPress 6.3
+Added Pattern Category: Call to Action and Banner
+Added Gradient Pattern
+Added Hero Story Pattern
+Add Sidebar in Template Parts - General
+Fixed Full Width and Wide alignment on mobile
 
 = 0.1.4 =
 Fixed Pattern image not correcty loaded
