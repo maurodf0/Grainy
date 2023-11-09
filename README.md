@@ -30,6 +30,12 @@ Details of images used for patterns taken from https://www.rawpixel.com and http
 
 == Changelog ==
 
+= 0.5 =
+Tested with WordPress 6.4
+Added new style: Alice
+Added new style: bittersweet
+Added Header - Simple header with btn
+
 = 0.2 =
 Tested with WordPress 6.3
 Added Pattern Category: Call to Action and Banner
