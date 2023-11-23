@@ -8,6 +8,13 @@
 			"title": "Blank Canvas"
 		},
 		{
+			"name": "boxed-template-featured-image",
+			"postTypes": [
+				"page"
+			],
+			"title": "Boxed Layout with Featured Image"
+		},
+		{
 			"name": "page-no-title",
 			"postTypes": [
 				"page"
@@ -297,7 +304,7 @@
 		},
 		{
 			"area": "footer",
-			"name": "simple-footer",
+			"name": "three-columns-footer",
 			"title": "Three columns Footer"
 		},
 		{
