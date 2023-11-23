@@ -30,6 +30,19 @@ Details of images used for patterns taken from https://www.rawpixel.com and http
 
 == Changelog ==
 
+= 0.6.1 =
+even lighter Css
+Fixed mobile error for Headers
+Change Simple footer into Three Columns footer
+Fixed Resposive errors in patterns
+Added Alt for every pattern's images
+
+
+= 0.6 =
+Page template now have max width native support
+New Boxed Layout for Page
+Better Preview and use for Pattern
+
 = 0.5 =
 Tested with WordPress 6.4
 Added new style: Alice
