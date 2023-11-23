@@ -7,9 +7,9 @@
      */
 ?>
 
-<!-- wp:group {"align":"wide","style":{"color":{"gradient":"linear-gradient(90deg,var(--wp--preset--color--background) 26%,var(--wp--preset--color--primary) 26%)"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group alignwide has-background" style="background:linear-gradient(90deg,var(--wp--preset--color--background) 26%,var(--wp--preset--color--primary) 26%)"><!-- wp:image {"id":88,"width":450,"height":450,"scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large is-resized"><img src="<?php echo(get_template_directory_uri()). '/assets/images/mountainous-landforms-mountain.jpg'; ?>" alt="" class="wp-image-88" style="object-fit:cover;width:450px;height:450px" width="450" height="450"/></figure>
+<!-- wp:group {"align":"wide","style":{"color":{"gradient":"linear-gradient(90deg,var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dbackground) 26%,var(\u002d\u002dwp\u002d\u002dpreset\u002d\u002dcolor\u002d\u002dprimary) 26%)"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group alignwide has-background" style="background:linear-gradient(90deg,var(--wp--preset--color--background) 26%,var(--wp--preset--color--primary) 26%)"><!-- wp:image {"lightbox":{"enabled":true},"id":35,"width":"1290px","height":"auto","aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo(get_template_directory_uri()). '/assets/images/mountainous-landforms-mountain.jpg'; ?>" alt="guy see over a mountain" class="wp-image-35" style="aspect-ratio:16/9;object-fit:cover;width:1290px;height:auto"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical"}} -->
