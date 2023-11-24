@@ -28,6 +28,13 @@ Details of images used for patterns taken from https://www.rawpixel.com and http
 
 == Changelog ==
 
+
+= 0.6.2 =
+Improved SEO
+Fixed Mobile/Padding issue
+Add Title to Page Template (Use No title template for hide the title into your pages)
+Single.html has now h1 for the title
+
 = 0.6.1 =
 even lighter Css
 Fixed mobile error for Headers
