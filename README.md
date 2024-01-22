@@ -1,5 +1,6 @@
 # Grainy
 
+![alt text](https://maurodefalco.it/wp-content/uploads/2023/11/griany-wp-jpg.webp)
 
 === Theme Info ===
 Contributors: maurodf
