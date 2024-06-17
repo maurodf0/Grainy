@@ -28,6 +28,9 @@ Details of images used for patterns taken from https://www.rawpixel.com and http
 
 == Changelog ==
 
+= 0.7=
+Add fonts for a better compatibility with advanced styles in WordPress 6.6
+
 = 0.6.3 =
 Tested with WordPress 6.5.2
 
